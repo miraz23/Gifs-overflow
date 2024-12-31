@@ -50,6 +50,7 @@ function Banner() {
 
   return (
     <>
+      {/* Goodbye 2024 */}
       <div className="banner px-8 flex flex-col gap-6 md:flex-row justify-between items-center ">
         <div className="banner-txt ">
           <h2 className="font-bold text-[3rem] md:text-[4rem]">{slides[idx].heading}</h2>
